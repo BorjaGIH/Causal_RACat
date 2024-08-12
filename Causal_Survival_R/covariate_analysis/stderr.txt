@@ -1,0 +1,56 @@
+nohup: ignoring input
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ forcats 1.0.0     ✔ tibble  3.2.1
+✔ purrr   1.0.2     ✔ tidyr   1.3.0
+✔ stringr 1.5.1     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: lattice
+
+Attaching package: ‘caret’
+
+The following object is masked from ‘package:purrr’:
+
+    lift
+
+Loading required package: lsei
+
+Attaching package: ‘survival’
+
+The following object is masked from ‘package:caret’:
+
+    cluster
+
+Loading required package: ggpubr
+
+Attaching package: ‘survminer’
+
+The following object is masked from ‘package:survival’:
+
+    myeloma
+
+New names:
+• `` -> `...1`
+Warning message:
+In cbind(get(paste0(covariate, "_ind")), get(paste0(covariate, "_mat"))) :
+  number of rows of result is not a multiple of vector length (arg 1)
